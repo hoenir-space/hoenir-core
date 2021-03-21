@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://hoenir.space/resource/schema/data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data" type="data:dataType" xmlns:data="https://hoenir.space/resource/schema/data"/>
+  <xs:simpleType name="UUIDType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="baseType">
+    <xs:simpleContent>
+      <xs:extension base="data:UUIDType" xmlns:data="https://hoenir.space/resource/schema/data">
+        <xs:attribute type="data:UUIDType" name="type" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="idType">
+    <xs:simpleContent>
+      <xs:extension base="data:UUIDType" xmlns:data="https://hoenir.space/resource/schema/data">
+        <xs:attribute type="data:UUIDType" name="type" use="required" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="targetType">
+    <xs:simpleContent>
+      <xs:extension base="data:UUIDType" xmlns:data="https://hoenir.space/resource/schema/data">
+        <xs:attribute type="data:UUIDType" name="type" use="required" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="weightType">
+    <xs:sequence>
+      <xs:element type="data:idType" name="id" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="xs:float" name="value" maxOccurs="1" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="weightsType">
+    <xs:sequence>
+      <xs:element type="data:weightType" name="weight" maxOccurs="unbounded" minOccurs="0" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="edgeType">
+    <xs:sequence>
+      <xs:element type="data:idType" name="id" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:targetType" name="target" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:weightsType" name="weights" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="edgesType">
+    <xs:sequence>
+      <xs:element type="data:edgeType" name="edge" maxOccurs="unbounded" minOccurs="0" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="valueType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="data:UUIDType" name="type" use="required" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="propertyType">
+    <xs:sequence>
+      <xs:element type="data:idType" name="id" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:valueType" name="value" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="propertiesType">
+    <xs:sequence>
+      <xs:element type="data:propertyType" name="property" maxOccurs="unbounded" minOccurs="0" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vertexType">
+    <xs:sequence>
+      <xs:element type="data:idType" name="id" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:edgesType" name="edges" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:weightsType" name="weights" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:propertiesType" name="properties" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="verticesType">
+    <xs:sequence>
+      <xs:element type="data:vertexType" name="vertex" maxOccurs="unbounded" minOccurs="0" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="graphType">
+    <xs:sequence>
+      <xs:element type="data:idType" name="id" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:verticesType" name="vertices" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="graphsType">
+    <xs:sequence>
+      <xs:element type="data:graphType" name="graph" maxOccurs="unbounded" minOccurs="0" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dataType">
+    <xs:sequence>
+      <xs:element type="data:baseType" name="base" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+      <xs:element type="data:graphsType" name="graphs" maxOccurs="1" minOccurs="1" xmlns:data="https://hoenir.space/resource/schema/data"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

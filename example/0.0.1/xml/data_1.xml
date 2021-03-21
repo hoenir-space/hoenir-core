@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://hoenir.space/resource/schema/data"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://hoenir.space/resource/schema/data ../xsd/data.xsd">
+    <base type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc0993</base>
+    <graphs>
+        <graph>
+            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099a</id>
+            <vertices>
+                <vertex>
+                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                    <edges>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                    </edges>
+                    <weights>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                    </weights>
+                    <properties>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla dfgdfg</value>
+                        </property>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                    </properties>
+                </vertex>
+                <vertex>
+                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                    <edges>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                    </edges>
+                    <weights>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                    </weights>
+                    <properties>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                    </properties>
+                </vertex>
+            </vertices>
+        </graph>
+        <graph>
+            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+            <vertices>
+                <vertex>
+                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                    <edges>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                    </edges>
+                    <weights>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0</value>
+                        </weight>
+                    </weights>
+                    <properties>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                    </properties>
+                </vertex>
+                <vertex>
+                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                    <edges>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                        <edge>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <target type="b394ada4-c601-418e-a91e-ade891798c43">964e27a4-18ce-455e-9682-d0e02001adb3</target>
+                            <weights>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1.0</value>
+                                </weight>
+                                <weight>
+                                    <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                                    <value>1067.546546</value>
+                                </weight>
+                            </weights>
+                        </edge>
+                    </edges>
+                    <weights>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1056</value>
+                        </weight>
+                        <weight>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value>1.0678</value>
+                        </weight>
+                    </weights>
+                    <properties>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla</value>
+                        </property>
+                        <property>
+                            <id type="3b5da256-174e-487d-9d87-5b53a816b236">8fdb9f31-d022-4b8f-a2bb-7c0f77cc099f</id>
+                            <value type="49892732-71fd-4672-bec6-4a3ad7201c62">Bla Bla!</value>
+                        </property>
+                    </properties>
+                </vertex>
+            </vertices>
+        </graph>
+    </graphs>
+</data>
