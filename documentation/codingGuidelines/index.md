@@ -10,7 +10,7 @@ The phrasing here will follow [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ## Naming
 
-The most difficult problem in prgramming I'm told.
+The most difficult problem in programming I'm told.
 
 ### Wording
 
