@@ -16,6 +16,9 @@
     "library",
     "framework"
   ],
+  "engines": {
+    "node": ">=10"
+  },
   "author": "Golos <golos@hoenir.space>",
   "license": "MIT",
   "devDependencies": {
