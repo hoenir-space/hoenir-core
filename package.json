@@ -1,5 +1,5 @@
 {
-  "name": "hoenir-core",
+  "name": "@hoenir/core",
   "version": "0.0.1",
   "description": "The core library for the Hoenir framework.",
   "main": "index.js",
@@ -33,5 +33,16 @@
   },
   "dependencies": {
     "uuid": "^8.3.2"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://G0los@github.com/hoenir-space/hoenir-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoenir-space/hoenir-core/issues"
+  },
+  "homepage": "https://github.com/hoenir-space/hoenir-core#readme"
 }
