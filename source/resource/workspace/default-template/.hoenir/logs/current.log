@@ -1,0 +1,6 @@
+[i](2021-03-22T08:12:36+01:00)[23f8207b]: Starting log.
+[s](2021-03-22T08:12:36+01:00)[23f8207b]: Curator[23f8207b-b327-4d99-a348-4ff295d65251] > [23f8207b] started using this log file.
+[a](2021-03-22T08:13:20+01:00)[23f8207b]: User[b688f71d-e508-45a5-b331-af9600513772] accessed Data[3d45b3fd-b2f1-40db-bb8a-f9b39e9d8004] trough Session[103d70fe-c58a-4913-9250-fdf1bdf246b6].
+[d](2021-03-22T08:13:21+01:00)[23f8207b]: Trying to do something with Graph[8ce0b27a-e309-4378-8793-0ad56fa20c32].
+[W](2021-03-22T08:13:22+01:00)[23f8207b]: This is a warning! Things might go wrong with Graph[8ce0b27a-e309-4378-8793-0ad56fa20c32] it seems inconsistent.
+[E](2021-03-22T08:13:23+01:00)[23f8207b]: Error[a52fbd86-4ebf-4220-859c-da028e26807c] - Look! https://youtu.be/3tmd-ClpJxA
