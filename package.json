@@ -1,15 +1,15 @@
 {
   "name": "@hoenir/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The core library for the Hoenir framework.",
-  "main": "dist",
+  "main": "lib/",
   "scripts": {
-    "prepack": "rm -rf dist && tsc -b",
+    "prepack": "rm -rf lib && tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "keywords": [
     "hoenir",
