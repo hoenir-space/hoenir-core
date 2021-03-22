@@ -18,7 +18,7 @@ Blut gab Lodur   und blühende Farbe.
   
 ## TLDR
 
-The automatically managed contents may be overwritten automatically at any time by the curator service.
+The automatically managed contents may be overwritten at any time by the curator service.
 
 Find out more about Hœnir workspaces at [hoenir.space/workspace](https://hoenir.space/workspace).
 
